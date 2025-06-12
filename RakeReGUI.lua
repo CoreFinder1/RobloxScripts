@@ -9,7 +9,6 @@ local errors, errormsg = pcall(function()
 	local ArtificialHB = Instance.new("BindableEvent", script)
 	ArtificialHB.Name = "RenderStepped"
 	
-	script:WaitForChild("RenderStepped")
 	
 	local tf = 0
 	local allowframeloss = false

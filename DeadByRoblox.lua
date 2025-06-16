@@ -10,7 +10,7 @@ end
 
 
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/DaScripted/UI/main/UI.lua"))()
-local Window = Library.CreateLib("Dead By Roblox", "Serpent")
+local Window = Library.CreateLib("TKAss", "Serpent")
 
 local Main = Window:NewTab("Abilities")
 

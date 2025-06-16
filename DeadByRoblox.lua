@@ -10,7 +10,7 @@ end
 
 
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/DaScripted/UI/main/UI.lua"))()
-local Window = Library.CreateLib("TKAss", "Serpent")
+local Window = Library.CreateLib("Dead By Roblox", "Serpent")
 
 local Main = Window:NewTab("Abilities")
 
@@ -934,4 +934,5 @@ local args = {
 
 game:GetService("ReplicatedStorage").Remotes.GlobalFunction:InvokeServer(unpack(args))
 end
+end)
 end)
